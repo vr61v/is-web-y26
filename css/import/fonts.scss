@@ -1,0 +1,36 @@
+$White : #f2f2f2;
+$GrayLight : #A6A6A6;
+$Gray : #595959;
+$GrayDark : #262626;
+$Black : #0d0d0d;
+
+%font124px{
+  font-size: 124px;
+  font-family: Helvetica;
+  font-weight: 700;
+  color: $White;
+}
+%font64px{
+  font-size: 64px;
+  font-family: Helvetica;
+  font-weight: 600;
+  color: $White;
+}
+%font32px{
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: 500;
+  color: $White;
+}
+%font16px{
+  font-size: 16px;
+  font-family: Helvetica;
+  font-weight: 500;
+  color: $White;
+}
+%fontShadowTitle{
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.65);
+}
+%fontShadow{
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.65);
+}
