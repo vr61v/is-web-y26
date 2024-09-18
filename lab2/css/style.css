@@ -144,14 +144,21 @@ nobr {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location {
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.cards-list .card__description {
+.prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -169,7 +176,7 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.about__main-text, .about__main-title, .about__title-location, .cards-list .card__description, .section__title {
+.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -187,14 +194,21 @@ nobr {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location {
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.cards-list .card__description {
+.prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -212,7 +226,7 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.about__main-text, .about__main-title, .about__title-location, .cards-list .card__description, .section__title {
+.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -246,14 +260,21 @@ section {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location {
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.cards-list .card__description {
+.prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -271,7 +292,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.about__main-text, .about__main-title, .about__title-location, .cards-list .card__description, .section__title {
+.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -318,14 +339,21 @@ section {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location {
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.cards-list .card__description {
+.prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -343,7 +371,84 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description {
+.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .section__title, .cards-list .card__description {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.items__table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.item {
+  height: 350px;
+  border-radius: 40px;
+  background-color: rgba(13, 13, 13, 0.2);
+  backdrop-filter: blur(5px);
+  transition: background 0.3s;
+}
+.item__content {
+  text-align: center;
+  height: 100%;
+}
+.item__price {
+  padding: 80px 0 45px;
+}
+.item__description {
+  padding: 0 10%;
+}
+.item:hover {
+  background-color: rgba(166, 166, 166, 0.1);
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__main-text, .about__title-location, .item__description {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description, .item__price, .item__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -395,14 +500,21 @@ section {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location {
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.cards-list .card__description {
+.prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -420,7 +532,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description {
+.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description, .item__price, .item__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -480,14 +592,21 @@ section {
   color: #f2f2f2;
 }
 
-.about__title-location, .about__main-text {
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.item__description, .about__title-location, .about__main-text {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.cards-list .card__description {
+.prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -505,12 +624,97 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.section__title, .cards-list .card__description, .about__title-location, .about__main-title, .about__main-text {
+.prices__buttons button, .prices__buttons a, .section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
 .instruments {
   background: url(/source/background/instruments.jpg) no-repeat center/cover;
+}
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.item__description, .about__title-location, .about__main-text {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.prices__buttons button, .prices__buttons a, .section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.prices {
+  background: url(/source/background/prices.jpg) no-repeat center/cover;
+}
+.prices__buttons {
+  margin-top: 50px;
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "calculate-button calculate-button" "rules-button sales-button";
+  gap: 10px;
+}
+.prices__buttons button, .prices__buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  background: rgba(13, 13, 13, 0.2);
+  backdrop-filter: blur(5px);
+  transition: background 0.3s;
+}
+.prices__buttons button:hover, .prices__buttons a:hover {
+  background: rgba(166, 166, 166, 0.1);
+}
+.prices__calculate-button {
+  grid-area: calculate-button;
+}
+.prices__rules-button {
+  grid-area: rules-button;
+}
+.prices__sales-button {
+  grid-area: sales-button;
 }
 
 /*# sourceMappingURL=style.css.map */
