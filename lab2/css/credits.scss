@@ -1,0 +1,17 @@
+@import "import/colors";
+@import "import/fonts";
+
+.credits {
+  background: url(/source/background/credits.jpg) no-repeat center / cover;
+
+  &__content { }
+
+}
+
+.card__image-credits {
+  padding: 25px 0 25px;
+  img {
+    border-radius: 80px;
+    width: 370px;
+  }
+}

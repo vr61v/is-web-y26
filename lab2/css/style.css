@@ -302,7 +302,7 @@ section {
 }
 .cards-list .card {
   flex: 0 0 auto;
-  margin-right: 20px;
+  margin: 0 5px;
   scroll-snap-align: start;
 }
 .cards-list .card__content {
@@ -715,6 +715,67 @@ section {
 }
 .prices__sales-button {
   grid-area: sales-button;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.item__description, .about__title-location, .about__main-text {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.cards-list .card__description, .prices__buttons button, .prices__buttons a {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.credits {
+  background: url(/source/background/credits.jpg) no-repeat center/cover;
+}
+.card__image-credits {
+  padding: 25px 0 25px;
+}
+.card__image-credits img {
+  border-radius: 80px;
+  width: 370px;
 }
 
 /*# sourceMappingURL=style.css.map */
