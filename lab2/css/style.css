@@ -151,14 +151,14 @@ nobr {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location, .item__description {
+.engineers__item-name, .about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -176,7 +176,7 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
+.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -201,14 +201,14 @@ nobr {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location, .item__description {
+.engineers__item-name, .about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -226,7 +226,7 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
+.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -267,14 +267,14 @@ section {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location, .item__description {
+.engineers__item-name, .about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -292,7 +292,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
+.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -346,14 +346,14 @@ section {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location, .item__description {
+.engineers__item-name, .about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -371,7 +371,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .section__title, .cards-list .card__description {
+.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .section__title, .cards-list .card__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -402,6 +402,40 @@ section {
   background-color: rgba(166, 166, 166, 0.1);
 }
 
+.vk-link::before,
+.telegram-link::before,
+.mail-link::before,
+.phone-link::before,
+.address-link::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.vk-link::before {
+  background-image: url("/source/icon/vk.png");
+}
+
+.telegram-link::before {
+  background-image: url("/source/icon/tg.png");
+}
+
+.mail-link::before {
+  background-image: url("/source/icon/gmail.png");
+}
+
+.phone-link::before {
+  background-image: url("/source/icon/phone.png");
+}
+
+.address-link::before {
+  background-image: url("/source/icon/map.png");
+}
+
 .about__title-text {
   font-size: 124px;
   font-family: Helvetica, serif;
@@ -423,14 +457,14 @@ section {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location, .item__description {
+.engineers__item-name, .about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -448,7 +482,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description, .item__price, .item__description {
+.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description, .item__price, .item__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -507,14 +541,14 @@ section {
   color: #f2f2f2;
 }
 
-.about__main-text, .about__title-location, .item__description {
+.engineers__item-name, .about__main-text, .about__title-location, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -532,7 +566,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description, .item__price, .item__description {
+.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description, .item__price, .item__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -599,14 +633,14 @@ section {
   color: #f2f2f2;
 }
 
-.item__description, .about__title-location, .about__main-text {
+.engineers__item-name, .item__description, .about__title-location, .about__main-text {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -624,7 +658,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.prices__buttons button, .prices__buttons a, .section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+.engineers__item-description, .prices__buttons button, .prices__buttons a, .section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -652,14 +686,14 @@ section {
   color: #f2f2f2;
 }
 
-.item__description, .about__title-location, .about__main-text {
+.engineers__item-name, .item__description, .about__title-location, .about__main-text {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-list .card__description {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -677,7 +711,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.prices__buttons button, .prices__buttons a, .section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+.engineers__item-description, .prices__buttons button, .prices__buttons a, .section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -738,14 +772,14 @@ section {
   color: #f2f2f2;
 }
 
-.item__description, .about__title-location, .about__main-text {
+.engineers__item-name, .item__description, .about__title-location, .about__main-text {
   font-size: 32px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.cards-list .card__description, .prices__buttons button, .prices__buttons a {
+.engineers__item-links, .cards-list .card__description, .prices__buttons button, .prices__buttons a {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -763,7 +797,7 @@ section {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-description, .section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -776,6 +810,105 @@ section {
 .card__image-credits img {
   border-radius: 80px;
   width: 370px;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.engineers__item-name, .item__description, .about__title-location, .about__main-text {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.engineers__item-links, .cards-list .card__description, .prices__buttons button, .prices__buttons a {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.engineers__item-description, .section__title, .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.engineers {
+  position: relative;
+  background: url("/source/background/engineers.jpg") no-repeat center/cover;
+  padding-bottom: 100px;
+}
+.engineers__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.engineers__item {
+  padding: 30px;
+  border-radius: 50px;
+  background: rgba(166, 166, 166, 0.1);
+  backdrop-filter: blur(5px);
+  display: flex;
+}
+.engineers__item-content {
+  display: flex;
+  align-items: center;
+}
+.engineers__item-image img {
+  border-radius: 40px;
+  max-width: 225px;
+  display: block;
+}
+.engineers__item-description {
+  padding-left: 20px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.engineers__item-name {
+  padding-bottom: 30px;
+  font-size: 32px;
+}
+.engineers__item-links {
+  display: flex;
+  flex-direction: column;
+}
+.engineers__item-links li {
+  padding-bottom: 20px;
+}
+.engineers__item-links li a {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
