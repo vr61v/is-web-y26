@@ -1,5 +1,10 @@
-@import "import/reset", "import/font/stylesheet.css", "import/fonts";
+@import "import/reset", "import/font/stylesheet", "import/fonts";
+
+@import "general/section";
+@import "general/cards-list";
 
 @import "header";
 
 @import "about";
+
+@import "instruments";

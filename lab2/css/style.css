@@ -2,7 +2,6 @@
 Tripoli Reset
 http://devkick.com/lab/tripoli/
 */
-@import "import/font/stylesheet.css";
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +82,54 @@ nobr {
   white-space: normal;
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.eot");
+  src: local("Helvetica"), url("Helvetica.eot?#iefix") format("embedded-opentype"), url("Helvetica.woff2") format("woff2"), url("Helvetica.woff") format("woff"), url("Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Oblique.eot");
+  src: local("Helvetica Oblique"), local("Helvetica-Oblique"), url("Helvetica-Oblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-Oblique.woff2") format("woff2"), url("Helvetica-Oblique.woff") format("woff"), url("Helvetica-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-BoldOblique.eot");
+  src: local("Helvetica Bold Oblique"), local("Helvetica-BoldOblique"), url("Helvetica-BoldOblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-BoldOblique.woff2") format("woff2"), url("Helvetica-BoldOblique.woff") format("woff"), url("Helvetica-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Light.eot");
+  src: local("Helvetica Light"), local("Helvetica-Light"), url("Helvetica-Light.eot?#iefix") format("embedded-opentype"), url("Helvetica-Light.woff2") format("woff2"), url("Helvetica-Light.woff") format("woff"), url("Helvetica-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Bold.eot");
+  src: local("Helvetica Bold"), local("Helvetica-Bold"), url("Helvetica-Bold.eot?#iefix") format("embedded-opentype"), url("Helvetica-Bold.woff2") format("woff2"), url("Helvetica-Bold.woff") format("woff"), url("Helvetica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-LightOblique.eot");
+  src: local("Helvetica Light Oblique"), local("Helvetica-LightOblique"), url("Helvetica-LightOblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-LightOblique.woff2") format("woff2"), url("Helvetica-LightOblique.woff") format("woff"), url("Helvetica-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
 .about__title-text {
   font-size: 124px;
   font-family: Helvetica, serif;
@@ -90,7 +137,7 @@ nobr {
   color: #f2f2f2;
 }
 
-.about__main-title {
+.about__main-title, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -99,6 +146,13 @@ nobr {
 
 .about__main-text, .about__title-location {
   font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.cards-list .card__description {
+  font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -115,7 +169,7 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.about__main-text, .about__main-title, .about__title-location {
+.about__main-text, .about__main-title, .about__title-location, .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -126,7 +180,7 @@ nobr {
   color: #f2f2f2;
 }
 
-.about__main-title {
+.about__main-title, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -135,6 +189,13 @@ nobr {
 
 .about__main-text, .about__title-location {
   font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.cards-list .card__description {
+  font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -151,7 +212,138 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.about__main-text, .about__main-title, .about__title-location {
+.about__main-text, .about__main-title, .about__title-location, .cards-list .card__description, .section__title {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+section {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.section__title {
+  max-width: 1200px;
+  padding: 100px 36px;
+  margin: 0 auto;
+}
+.section__content {
+  max-width: 1200px;
+  padding: 0 36px;
+  margin: 0 auto;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__main-text, .about__title-location {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.about__main-text, .about__main-title, .about__title-location, .cards-list .card__description, .section__title {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.cards-list {
+  display: flex;
+  overflow: hidden;
+}
+.cards-list .card {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  scroll-snap-align: start;
+}
+.cards-list .card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  background: rgba(166, 166, 166, 0.1);
+  backdrop-filter: blur(5px);
+  min-height: 100%;
+}
+.cards-list .card__image img {
+  max-width: 290px;
+  object-fit: cover;
+}
+.cards-list .card__description {
+  text-align: center;
+  font-size: 24px;
+  padding: 10px 20px 30px 20px;
+  max-width: 270px;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__main-text, .about__title-location {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -196,7 +388,7 @@ nobr {
   color: #f2f2f2;
 }
 
-.about__main-title {
+.about__main-title, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -205,6 +397,13 @@ nobr {
 
 .about__main-text, .about__title-location {
   font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.cards-list .card__description {
+  font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -221,20 +420,13 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.about__main-text, .about__main-title, .about__title-location {
+.about__main-text, .about__main-title, .about__title-location, .section__title, .cards-list .card__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
 .about {
-  position: relative;
   min-height: 100vh;
   background: url(/source/background/about.jpg) no-repeat center/cover;
-  padding-bottom: 100px;
-}
-.about__content {
-  max-width: 1200px;
-  padding: 0 36px;
-  margin: 0 auto;
 }
 .about__title {
   display: flex;
@@ -272,6 +464,53 @@ nobr {
   grid-area: image-horizontal;
   overflow: hidden;
   border-radius: 80px 40px 40px 80px;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.about__title-location, .about__main-text {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.section__title, .cards-list .card__description, .about__title-location, .about__main-title, .about__main-text {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.instruments {
+  background: url(/source/background/instruments.jpg) no-repeat center/cover;
 }
 
 /*# sourceMappingURL=style.css.map */
