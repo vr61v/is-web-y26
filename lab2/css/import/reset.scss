@@ -18,7 +18,7 @@ sub, sup { vertical-align: baseline; }
 a { color: inherit; }
 hr { display: none; } /* we don't need a visual hr in layout */
 /* disables some nasty font attributes in standard browsers */
-font { color: inherit !important; font: inherit !important; color: inherit !important; } 
+font { color: inherit !important; font: inherit !important;}
 marquee { overflow: inherit !important; -moz-binding: none; }
 blink { text-decoration: none; }
 nobr { white-space: normal; }
