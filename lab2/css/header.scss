@@ -1,0 +1,43 @@
+@import "import/colors";
+@import "import/fonts";
+
+.header {
+  @extend %font16px;
+
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-color: rgba($GrayDark, 0.1);
+  backdrop-filter: blur(10px);
+
+  &__content {
+    max-width: 1200px;
+    padding: 0 36px;
+    margin: 0 auto;
+  }
+
+  &__navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__link {
+    padding-right: 10px;
+  }
+
+  &__logo {
+    justify-self: center;
+  }
+
+  &__user-icon {
+    justify-self: end;
+  }
+}
