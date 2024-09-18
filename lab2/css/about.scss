@@ -1,0 +1,76 @@
+@import "import/colors";
+@import "import/fonts";
+
+.about {
+  position: relative;
+  min-height: 100vh;
+  background: url(/source/background/about.jpg) no-repeat center / cover;
+  padding-bottom: 100px;
+
+  &__content {
+    max-width: 1200px;
+    padding: 0 36px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+    &-text {
+      @extend %font124px;
+      @extend %fontShadowTitle;
+    }
+
+    &-location {
+      @extend %font32px;
+      @extend %fontShadow;
+    }
+  }
+
+  &__main {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "main-title image-vertical"
+      "main-text image-vertical"
+      "image-horizontal image-vertical";
+    gap: 10px;
+    justify-self: center;
+    grid-auto-flow: dense;
+
+    &-title {
+      @extend %font64px;
+      @extend %fontShadow;
+      grid-area: main-title;
+    }
+
+    &-text {
+      @extend %font32px;
+      @extend %fontShadow;
+      grid-area: main-text;
+    }
+
+    &-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &-image-vertical{
+      grid-area: image-vertical;
+      overflow: hidden;
+      border-radius: 40px 80px 80px 40px; // Для вертикального
+    }
+
+    &-image-horizontal {
+      grid-area: image-horizontal;
+      overflow: hidden;
+      border-radius: 80px 40px 40px 80px; // Для горизонтального
+    }
+  }
+}
