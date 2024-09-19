@@ -1,0 +1,68 @@
+@import "import/colors";
+@import "import/fonts";
+
+.engineers {
+  background: url('/source/background/engineers.jpg') no-repeat center / cover;
+
+  &__title { }
+
+  &__content {
+    @extend .section__content;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  &__item {
+    padding: 30px;
+    border-radius: 50px;
+    background: rgba($GrayLight, 0.1);
+    backdrop-filter: blur(5px);
+    display: flex;
+
+    &-content {
+      display: flex;
+      align-items: center;
+    }
+
+    &-image {
+      img {
+        border-radius: 40px;
+        max-width: 225px;
+        display: block;
+      }
+    }
+
+    &-description {
+      @extend %fontShadow;
+      padding-left: 20px;
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-name {
+      @extend %font32px;
+      padding-bottom: 30px;
+      font-size: 32px;
+    }
+
+    &-links {
+      @extend %font24px;
+      display: flex;
+      flex-direction: column;
+
+      li {
+        padding-bottom: 20px;
+        a {
+          display: flex;
+          align-items: center;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}

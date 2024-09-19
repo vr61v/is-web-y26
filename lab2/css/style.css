@@ -1,0 +1,1234 @@
+/* 
+Tripoli Reset
+http://devkick.com/lab/tripoli/
+*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 1em;
+  outline: none;
+}
+
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext {
+  font: inherit;
+  font-size: 1em;
+  white-space: normal;
+}
+
+dfn, i, cite, var, address, em {
+  font-style: normal;
+}
+
+th, b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td, center {
+  text-align: left;
+  vertical-align: top;
+}
+
+body {
+  line-height: 1;
+  background: white;
+  color: black;
+}
+
+q {
+  quotes: "" "";
+}
+
+ul, ol, dir, menu {
+  list-style: none;
+}
+
+sub, sup {
+  vertical-align: baseline;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  display: none;
+} /* we don't need a visual hr in layout */
+/* disables some nasty font attributes in standard browsers */
+font {
+  color: inherit !important;
+  font: inherit !important;
+}
+
+marquee {
+  overflow: inherit !important;
+  -moz-binding: none;
+}
+
+blink {
+  text-decoration: none;
+}
+
+nobr {
+  white-space: normal;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.eot");
+  src: local("Helvetica"), url("Helvetica.eot?#iefix") format("embedded-opentype"), url("Helvetica.woff2") format("woff2"), url("Helvetica.woff") format("woff"), url("Helvetica.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Oblique.eot");
+  src: local("Helvetica Oblique"), local("Helvetica-Oblique"), url("Helvetica-Oblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-Oblique.woff2") format("woff2"), url("Helvetica-Oblique.woff") format("woff"), url("Helvetica-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-BoldOblique.eot");
+  src: local("Helvetica Bold Oblique"), local("Helvetica-BoldOblique"), url("Helvetica-BoldOblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-BoldOblique.woff2") format("woff2"), url("Helvetica-BoldOblique.woff") format("woff"), url("Helvetica-BoldOblique.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Light.eot");
+  src: local("Helvetica Light"), local("Helvetica-Light"), url("Helvetica-Light.eot?#iefix") format("embedded-opentype"), url("Helvetica-Light.woff2") format("woff2"), url("Helvetica-Light.woff") format("woff"), url("Helvetica-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-Bold.eot");
+  src: local("Helvetica Bold"), local("Helvetica-Bold"), url("Helvetica-Bold.eot?#iefix") format("embedded-opentype"), url("Helvetica-Bold.woff2") format("woff2"), url("Helvetica-Bold.woff") format("woff"), url("Helvetica-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica-LightOblique.eot");
+  src: local("Helvetica Light Oblique"), local("Helvetica-LightOblique"), url("Helvetica-LightOblique.eot?#iefix") format("embedded-opentype"), url("Helvetica-LightOblique.woff2") format("woff2"), url("Helvetica-LightOblique.woff") format("woff"), url("Helvetica-LightOblique.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+body {
+  background: #0d0d0d;
+}
+
+.section__title {
+  max-width: 1200px;
+  padding: 100px 36px;
+  margin: 0 auto;
+}
+.section__content, .footer__content, .contacts__content, .engineers__content, .credits__content, .prices__content, .instruments__content, .about__content, .header__content {
+  position: relative;
+  max-width: 1200px;
+  padding: 0 36px 100px;
+  margin: 0 auto;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.cards-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.cards-slider .cards-slider__control {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+}
+.cards-slider .cards-slider__control--left {
+  padding-right: 10px;
+}
+.cards-slider .cards-slider__control--right {
+  padding-left: 10px;
+}
+.cards-slider .cards-list {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.cards-slider .cards-list .card {
+  flex: 0 0 33.333%;
+  scroll-snap-align: start;
+}
+.cards-slider .cards-list .card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 50px;
+  background: rgba(166, 166, 166, 0.1);
+  backdrop-filter: blur(5px);
+  min-height: 100%;
+}
+.cards-slider .cards-list .card__image img {
+  max-width: 290px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.cards-slider .cards-list .card__description {
+  text-align: center;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .section__title, .cards-slider .cards-list .card__description {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.items__table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.item {
+  height: 350px;
+  border-radius: 40px;
+  background-color: rgba(13, 13, 13, 0.2);
+  backdrop-filter: blur(5px);
+  transition: background 0.3s;
+}
+.item__content {
+  text-align: center;
+  height: 100%;
+}
+.item__price {
+  padding: 80px 0 45px;
+}
+.item__description {
+  padding: 0 10%;
+}
+.item:hover {
+  background-color: rgba(166, 166, 166, 0.1);
+}
+
+.vk-link::before,
+.telegram-link::before,
+.mail-link::before,
+.phone-link::before,
+.address-link::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+
+.vk-link::before {
+  background-image: url("/source/icon/vk.png");
+}
+
+.telegram-link::before {
+  background-image: url("/source/icon/tg.png");
+}
+
+.mail-link::before {
+  background-image: url("/source/icon/gmail.png");
+}
+
+.phone-link::before {
+  background-image: url("/source/icon/phone.png");
+}
+
+.address-link::before {
+  background-image: url("/source/icon/map.png");
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(38, 38, 38, 0.1);
+  backdrop-filter: blur(10px);
+}
+.header__content {
+  padding-bottom: 0;
+}
+.header__navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.header__links {
+  display: flex;
+  justify-content: flex-start;
+}
+.header__link {
+  padding-right: 10px;
+}
+.header__logo {
+  padding: 10px 0;
+  justify-self: center;
+}
+.header__user-icon {
+  justify-self: end;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__main-title, .section__title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.about {
+  min-height: 100vh;
+  background: url(/source/background/about.jpg) no-repeat center/cover;
+}
+.about__title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+.about__main {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "main-title image-vertical" "main-text image-vertical" "image-horizontal image-vertical";
+  gap: 10px;
+  justify-self: center;
+  grid-auto-flow: dense;
+}
+.about__main-title {
+  grid-area: main-title;
+}
+.about__main-text {
+  grid-area: main-text;
+}
+.about__main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about__main-image-vertical {
+  grid-area: image-vertical;
+  overflow: hidden;
+  border-radius: 40px 80px 80px 40px;
+}
+.about__main-image-horizontal {
+  grid-area: image-horizontal;
+  overflow: hidden;
+  border-radius: 80px 40px 40px 80px;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .item__description, .about__title-location, .about__main-text {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.instruments {
+  background: url(/source/background/instruments.jpg) no-repeat center/cover;
+}
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .item__description, .about__title-location, .about__main-text {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.prices {
+  background: url(/source/background/prices.jpg) no-repeat center/cover;
+}
+.prices__buttons {
+  margin-top: 50px;
+  max-width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "calculate-button calculate-button" "rules-button sales-button";
+  gap: 10px;
+}
+.prices__buttons button, .prices__buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  background: rgba(13, 13, 13, 0.2);
+  backdrop-filter: blur(5px);
+  transition: background 0.3s;
+}
+.prices__buttons button:hover, .prices__buttons a:hover {
+  background: rgba(166, 166, 166, 0.1);
+}
+.prices__calculate-button {
+  grid-area: calculate-button;
+}
+.prices__rules-button {
+  grid-area: rules-button;
+}
+.prices__sales-button {
+  grid-area: sales-button;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .item__description, .about__title-location, .about__main-text {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .cards-slider .cards-list .card__description, .prices__buttons button, .prices__buttons a {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.credits {
+  background: url(/source/background/credits.jpg) no-repeat center/cover;
+}
+.card__image-credits {
+  padding: 25px 0 25px;
+}
+.card__image-credits img {
+  border-radius: 30%;
+  width: 290px;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .engineers__item-name, .item__description, .about__title-location, .about__main-text {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .cards-slider .cards-list .card__description, .prices__buttons button, .prices__buttons a {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.engineers {
+  background: url("/source/background/engineers.jpg") no-repeat center/cover;
+}
+.engineers__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.engineers__item {
+  padding: 30px;
+  border-radius: 50px;
+  background: rgba(166, 166, 166, 0.1);
+  backdrop-filter: blur(5px);
+  display: flex;
+}
+.engineers__item-content {
+  display: flex;
+  align-items: center;
+}
+.engineers__item-image img {
+  border-radius: 40px;
+  max-width: 225px;
+  display: block;
+}
+.engineers__item-description {
+  padding-left: 20px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.engineers__item-name {
+  padding-bottom: 30px;
+  font-size: 32px;
+}
+.engineers__item-links {
+  display: flex;
+  flex-direction: column;
+}
+.engineers__item-links li {
+  padding-bottom: 20px;
+}
+.engineers__item-links li a {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.contacts__links a, .item__description, .about__title-location, .about__main-text, .engineers__item-name {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.cards-slider .cards-list .card__description, .prices__buttons button, .prices__buttons a, .engineers__item-links {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.contacts__links a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .engineers__item-description {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.contacts {
+  background: url(/source/background/contacts.jpg) no-repeat center/cover;
+}
+.contacts__content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.contacts__links a {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+.maps {
+  width: 560px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.about__title-text {
+  font-size: 124px;
+  font-family: Helvetica, serif;
+  font-weight: 700;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.section__title, .about__main-title {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__price {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.item__description, .about__title-location, .about__main-text, .engineers__item-name, .contacts__links a {
+  font-size: 32px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.cards-slider .cards-list .card__description, .prices__buttons button, .prices__buttons a, .engineers__item-links {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.header {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .engineers__item-description, .contacts__links a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.footer {
+  background: #f2f2f2;
+}
+.footer__content {
+  color: #0d0d0d;
+  height: 50px;
+  display: grid;
+  padding-bottom: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
