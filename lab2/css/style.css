@@ -347,7 +347,7 @@ section {
   scroll-behavior: smooth;
 }
 .cards-slider .cards-list .card {
-  flex: 0 0 33.33%;
+  flex: 0 0 33.333%;
   scroll-snap-align: start;
 }
 .cards-slider .cards-list .card__content {
@@ -896,8 +896,8 @@ section {
   padding: 25px 0 25px;
 }
 .card__image-credits img {
-  border-radius: 80px;
-  width: 370px;
+  border-radius: 30%;
+  width: 290px;
 }
 
 .about__title-text {
