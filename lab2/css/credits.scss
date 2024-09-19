@@ -4,7 +4,9 @@
 .credits {
   background: url(/source/background/credits.jpg) no-repeat center / cover;
 
-  &__content { }
+  &__content {
+    @extend .section__content;
+  }
 
 }
 

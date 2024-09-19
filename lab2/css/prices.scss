@@ -4,7 +4,9 @@
 .prices {
   background: url(/source/background/prices.jpg) no-repeat center / cover;
 
-  &__content { }
+  &__content {
+    @extend .section__content;
+  }
 
   &__buttons {
     margin-top: 50px;

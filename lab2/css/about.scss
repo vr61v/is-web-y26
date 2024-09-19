@@ -5,7 +5,9 @@
   min-height: 100vh;
   background: url(/source/background/about.jpg) no-repeat center / cover;
 
-  &__content { }
+  &__content {
+    @extend .section__content;
+  }
 
   &__title {
     display: flex;

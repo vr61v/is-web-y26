@@ -8,7 +8,9 @@
 
   &__title { }
 
-  &__content { }
+  &__content {
+    @extend .section__content;
+  }
 
   &__list {
     display: grid;
