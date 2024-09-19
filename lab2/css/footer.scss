@@ -9,6 +9,7 @@
     color: $Black;
     height: 50px;
     display: grid;
+    padding-bottom: 0;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;

@@ -6,12 +6,10 @@
 
   &__content {
     @extend .section__content;
-
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    padding: 0 30px 30px;
   }
   
   &__links {

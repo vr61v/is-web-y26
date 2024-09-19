@@ -6,8 +6,6 @@ body {
 }
 
 .section {
-  position: relative;
-  padding-bottom: 100px;
   &__title {
     @extend %font64px;
     @extend %fontShadow;
@@ -16,8 +14,9 @@ body {
     margin: 0 auto;
   }
   &__content {
+    position: relative;
     max-width: 1200px;
-    padding: 0 36px;
+    padding: 0 36px 100px;
     margin: 0 auto;
   }
 }
