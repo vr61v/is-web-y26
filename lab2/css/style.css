@@ -172,12 +172,23 @@ nobr {
   color: #f2f2f2;
 }
 
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
 .about__title-text {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
 .contacts__links a, .engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+body {
+  background: #0d0d0d;
 }
 
 .about__title-text {
@@ -217,6 +228,13 @@ nobr {
 
 .header {
   font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.footer__content {
+  font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -283,6 +301,13 @@ section {
 
 .header {
   font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.footer__content {
+  font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -362,6 +387,13 @@ section {
 
 .header {
   font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.footer__content {
+  font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -478,6 +510,13 @@ section {
   color: #f2f2f2;
 }
 
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
 .about__title-text {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
@@ -557,6 +596,13 @@ section {
 
 .header {
   font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.footer__content {
+  font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -654,6 +700,13 @@ section {
   color: #f2f2f2;
 }
 
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
 .about__title-text {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
@@ -702,6 +755,13 @@ section {
 
 .header {
   font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.footer__content {
+  font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -793,6 +853,13 @@ section {
   color: #f2f2f2;
 }
 
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
 .about__title-text {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
@@ -849,6 +916,13 @@ section {
 
 .header {
   font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.footer__content {
+  font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
   color: #f2f2f2;
@@ -953,6 +1027,13 @@ section {
   color: #f2f2f2;
 }
 
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
 .about__title-text {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
@@ -1025,6 +1106,13 @@ section {
   color: #f2f2f2;
 }
 
+.footer__content {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
 .about__title-text {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
@@ -1033,7 +1121,11 @@ section {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
+.footer {
+  background: #f2f2f2;
+}
 .footer__content {
+  color: #0d0d0d;
   height: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

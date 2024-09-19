@@ -2,12 +2,19 @@
 @import "import/fonts";
 
 .footer {
+  background: $White;
   &__content {
     @extend .section__content;
+    @extend %font12px;
+    color: $Black;
     height: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
   }
+
+  &__link { }
+
+  &__logo { }
 }
