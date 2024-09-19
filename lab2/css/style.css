@@ -345,6 +345,7 @@ section {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 .cards-slider .cards-list .card {
   flex: 0 0 33.333%;
