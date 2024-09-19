@@ -1,0 +1,13 @@
+@import "import/colors";
+@import "import/fonts";
+
+.footer {
+  &__content {
+    @extend .section__content;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+}
