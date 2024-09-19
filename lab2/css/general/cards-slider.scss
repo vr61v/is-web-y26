@@ -1,0 +1,66 @@
+@import "../import/colors";
+@import "../import/fonts";
+
+.cards-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .cards-slider__control {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: rgba(0,0,0,0);
+
+    &--left {
+      padding-right: 10px;
+    }
+
+    &--right {
+      padding-left: 10px;
+    }
+  }
+
+  .cards-list {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    .card {
+      flex: 0 0 33.33%;
+      scroll-snap-align: start;
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-right: 10px;
+        border-radius: 20px;
+        background: rgba($GrayLight, 0.1);
+        backdrop-filter: blur(5px);
+        min-height: 100%;
+      }
+
+      &__image {
+        img {
+          max-width: 290px;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+      }
+
+      &__description {
+        @extend %font24px;
+        @extend %fontShadow;
+        text-align: center;
+        padding: 10px;
+        max-width: 200px;
+      }
+    }
+  }
+}
+

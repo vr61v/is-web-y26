@@ -29,7 +29,7 @@
           </li>
         </ul>
         <a class="header__logo" href="./">
-          <img src="./source/icon/logo__header.png" alt="Логотип в заголовке">
+          <img src="source/icon/logo-header.png" alt="Логотип в заголовке">
         </a>
         <a class="header__user-icon" href="#">
           <img src="./source/icon/user.png" alt="Иконка пользователя в заголовке">
@@ -65,44 +65,91 @@
       <h2 class="section__title">СТУДИЙНОЕ ОБОРУДОВАНИЕ</h2>
 
       <div class="instruments__content">
-        <div class="cards-list">
-          <div class="card">
-            <div class="card__content">
-              <div class="card__image">
-                <img src="./source/instruments/iMac.png" alt="iMac 27', Retina 5K (3.4Ghz Intel Core i5, 40GB RAM)">
+        <div class="cards-slider">
+          <button class="cards-slider__control cards-slider__control--left" aria-label="Previous">
+            <img src="/source/icon/arrow-left.svg" alt="">
+          </button>
+
+          <div class="cards-list">
+            <div class="card">
+              <div class="card__content">
+                <div class="card__image">
+                  <img src="/source/instruments/iMac.png" alt="iMac 27', Retina 5K, (3.4Ghz Intel Core i5, 40GB RAM)">
+                </div>
+                <p class="card__description">iMac 27', Retina 5K, (3.4Ghz Intel Core i5, 40GB RAM)</p>
               </div>
-              <p class="card__description">iMac 27', Retina 5K (3.4Ghz Intel Core i5, 40GB RAM)</p>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <div class="card__image">
+                  <img src="/source/instruments/Universal.png" alt="Universal Audio Apollo Twin X QUAD">
+                </div>
+                <p class="card__description">Universal Audio Apollo Twin X QUAD</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <div class="card__image">
+                  <img src="/source/instruments/Neumann.png" alt="Neumann TLM 103">
+                </div>
+                <p class="card__description">Neumann TLM 103</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <div class="card__image">
+                  <img src="/source/instruments/Adam.png" alt="Adam t5v">
+                </div>
+                <p class="card__description">Adam t5v</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <div class="card__image">
+                  <img src="/source/instruments/Genelec.png" alt="Genelec 8010">
+                </div>
+                <p class="card__description">Genelec 8010</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <div class="card__image">
+                  <img src="/source/instruments/Behringer.png" alt="Behringer HA400">
+                </div>
+                <p class="card__description">Behringer HA400</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <div class="card__image">
+                  <img src="/source/instruments/Beyerdynamic770.png" alt="Beyerdynamic DT 770 Pro">
+                </div>
+                <p class="card__description">Beyerdynamic DT 770 Pro</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__content">
+                <div class="card__image">
+                  <img src="/source/instruments/Beyerdynamic990.png" alt="Beyerdynamic DT 990 Pro">
+                </div>
+                <p class="card__description">Beyerdynamic DT 990 Pro</p>
+              </div>
             </div>
           </div>
 
-          <div class="card">
-            <div class="card__content">
-              <div class="card__image">
-                <img src="./source/instruments/Universal.png" alt="Universal Audio Apollo TwinX Preamp/Compressor">
-              </div>
-              <p class="card__description">Universal Audio Apollo TwinX Preamp/Compressor</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card__content">
-              <div class="card__image">
-                <img src="./source/instruments/Neumann.png" alt="Neumann TLM 103">
-              </div>
-              <p class="card__description">Neumann TLM 103</p>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card__content">
-              <div class="card__image">
-                <img src="./source/instruments/Behringer.png" alt="Behringer HA400">
-              </div>
-              <p class="card__description">Behringer HA400</p>
-            </div>
-          </div>
+          <button class="cards-slider__control cards-slider__control--right" aria-label="Next">
+            <img src="/source/icon/arrow-right.svg" alt="">
+          </button>
         </div>
       </div>
+
     </section>
 
     <section class="prices" id="prices">
@@ -327,11 +374,10 @@
   <footer class="footer">
     <div class="footer__content">
       <a class="footer__link" href="https://yandex.ru/maps/-/CDDRBE9U">14-я линия В.О. 9 Санкт-Петербург</a>
-      <a class="footer__logo" href="./"><img src="./source/icon/logo__footer.png" alt="logo in footer"></a>
+      <a class="footer__logo" href="./"><img src="source/icon/logo-footer.png" alt="logo in footer"></a>
       <a class="footer__link" href="tel:+79313148151">+7 931 314 81 51</a>
     </div>
   </footer>
-
 </body>
 </html>
 
