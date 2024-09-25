@@ -78,10 +78,10 @@
         @extend %font16px;
         @extend %fontShadow;
         text-align: center;
-        padding: 10px;
+        padding: 0 0 20px;
         max-width: 200px;
 
-        @include tablet {
+        @include mobile-l {
           font-size: 24px !important;
         }
       }

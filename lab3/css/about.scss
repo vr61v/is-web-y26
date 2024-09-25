@@ -58,9 +58,14 @@
 
 
     &-title {
-      @extend %font32px;
+      @extend %font24px;
       @extend %fontShadow;
       grid-area: main-title;
+
+      @include mobile-l {
+        font-size: 32px !important;
+        font-weight: 600 !important;
+      }
 
       @include tablet {
         font-size: 64px !important;
@@ -73,6 +78,10 @@
       grid-area: main-text;
 
       @include tablet {
+        font-size: 24px !important;
+      }
+
+      @include screen-laptop {
         font-size: 32px !important;
       }
     }

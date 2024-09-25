@@ -39,6 +39,7 @@
 
     @include mobile-l {
       font-size: 32px !important;
+      font-weight: 600 !important;
     }
     @include screen-laptop {
       font-size: 52px !important;
@@ -58,6 +59,7 @@
     }
     @include screen-laptop {
       font-size: 32px !important;
+      font-weight: 600 !important;
     }
   }
 

@@ -1,5 +1,6 @@
 @import "import/colors";
 @import "import/fonts";
+@import "import/mixins";
 
 .engineers {
   background: url('/source/background/engineers.jpg') no-repeat center / cover;
@@ -10,20 +11,30 @@
     @extend .section__content;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr;
+    gap: 5px;
+
+    @include tablet {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
   }
 
   &__item {
-    padding: 30px;
+    padding: 10px;
     border-radius: 50px;
     background: rgba($GrayLight, 0.1);
     backdrop-filter: blur(5px);
     display: flex;
+    align-items: center;
+    flex-direction: column;
 
-    &-content {
-      display: flex;
-      align-items: center;
+    @include mobile-l {
+      padding: 30px;
+    }
+
+    @include screen-laptop-l {
+      flex-direction: row;
     }
 
     &-image {
@@ -36,22 +47,36 @@
 
     &-description {
       @extend %fontShadow;
-      padding-left: 20px;
       max-width: 300px;
       display: flex;
       flex-direction: column;
+      text-align: center;
+      padding-top: 20px;
+
+      @include screen-laptop-l {
+        text-align: left;
+        padding: 0 0 0 20px;
+      }
     }
 
     &-name {
-      @extend %font32px;
+      @extend %font24px;
       padding-bottom: 30px;
-      font-size: 32px;
+
+      @include mobile-l {
+        font-size: 32px !important;
+        font-weight: 600 !important;
+      }
     }
 
     &-links {
-      @extend %font24px;
+      @extend %font16px;
       display: flex;
       flex-direction: column;
+
+      @include mobile-l {
+        font-size: 24px !important;
+      }
 
       li {
         padding-bottom: 20px;

@@ -138,15 +138,15 @@ nobr {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-title, .section__title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -154,7 +154,7 @@ nobr {
   cursor: default;
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -186,15 +186,15 @@ nobr {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-title, .section__title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -202,7 +202,7 @@ nobr {
   cursor: default;
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -234,6 +234,12 @@ body {
   max-width: 1200px;
   padding: 50px 36px;
   margin: 0 auto;
+}
+@media (min-width: 425px) {
+  .section__title {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+  }
 }
 @media (min-width: 768px) {
   .section__title {
@@ -270,6 +276,11 @@ body {
 .contact-link__text {
   cursor: pointer !important;
 }
+@media (min-width: 425px) {
+  .contact-link__text {
+    font-size: 24px !important;
+  }
+}
 
 .about__title-text {
   font-size: 64px;
@@ -279,15 +290,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-title, .section__title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -295,7 +306,7 @@ body {
   cursor: default;
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -393,10 +404,10 @@ body {
 }
 .cards-slider .cards-list .card__description {
   text-align: center;
-  padding: 10px;
+  padding: 0 0 20px;
   max-width: 200px;
 }
-@media (min-width: 768px) {
+@media (min-width: 425px) {
   .cards-slider .cards-list .card__description {
     font-size: 24px !important;
   }
@@ -410,15 +421,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-title, .section__title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -426,7 +437,7 @@ body {
   cursor: default;
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .contact-link__text, .cards-slider .cards-list .card__description {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -487,6 +498,7 @@ body {
 @media (min-width: 425px) {
   .item__price {
     font-size: 32px !important;
+    font-weight: 600 !important;
   }
 }
 @media (min-width: 1024px) {
@@ -508,6 +520,7 @@ body {
 @media (min-width: 1024px) {
   .item__description {
     font-size: 32px !important;
+    font-weight: 600 !important;
   }
 }
 .item:hover {
@@ -522,15 +535,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-title, .section__title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -538,7 +551,7 @@ body {
   cursor: default;
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .cards-slider .cards-list .card__description, .item__price {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -602,15 +615,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-title, .section__title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -618,7 +631,7 @@ body {
   cursor: default;
 }
 
-.prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .cards-slider .cards-list .card__description, .item__price, .header {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -683,6 +696,12 @@ body {
 .about__main-title {
   grid-area: main-title;
 }
+@media (min-width: 425px) {
+  .about__main-title {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+  }
+}
 @media (min-width: 768px) {
   .about__main-title {
     font-size: 64px !important;
@@ -692,6 +711,11 @@ body {
   grid-area: main-text;
 }
 @media (min-width: 768px) {
+  .about__main-text {
+    font-size: 24px !important;
+  }
+}
+@media (min-width: 1024px) {
   .about__main-text {
     font-size: 32px !important;
   }
@@ -730,15 +754,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .section__title, .about__main-title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .section__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -746,7 +770,7 @@ body {
   cursor: default;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -781,15 +805,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .section__title, .about__main-title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .section__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -797,7 +821,7 @@ body {
   cursor: default;
 }
 
-.prices__buttons button, .prices__buttons a, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
+.engineers__item-links, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -880,15 +904,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .section__title, .about__main-title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .section__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -896,7 +920,7 @@ body {
   cursor: default;
 }
 
-.cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -939,15 +963,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .section__title, .about__main-title {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text {
+.engineers__item-name, .section__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -955,7 +979,7 @@ body {
   cursor: default;
 }
 
-.cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -984,19 +1008,33 @@ body {
 }
 .engineers__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+@media (min-width: 768px) {
+  .engineers__content {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
 .engineers__item {
-  padding: 30px;
+  padding: 10px;
   border-radius: 50px;
   background: rgba(166, 166, 166, 0.1);
   backdrop-filter: blur(5px);
   display: flex;
-}
-.engineers__item-content {
-  display: flex;
   align-items: center;
+  flex-direction: column;
+}
+@media (min-width: 425px) {
+  .engineers__item {
+    padding: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .engineers__item {
+    flex-direction: row;
+  }
 }
 .engineers__item-image img {
   border-radius: 40px;
@@ -1004,18 +1042,35 @@ body {
   display: block;
 }
 .engineers__item-description {
-  padding-left: 20px;
   max-width: 300px;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+}
+@media (min-width: 1440px) {
+  .engineers__item-description {
+    text-align: left;
+    padding: 0 0 0 20px;
+  }
 }
 .engineers__item-name {
   padding-bottom: 30px;
-  font-size: 32px;
+}
+@media (min-width: 425px) {
+  .engineers__item-name {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+  }
 }
 .engineers__item-links {
   display: flex;
   flex-direction: column;
+}
+@media (min-width: 425px) {
+  .engineers__item-links {
+    font-size: 24px !important;
+  }
 }
 .engineers__item-links li {
   padding-bottom: 20px;
@@ -1034,15 +1089,15 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .section__title, .about__main-title, .engineers__item-name {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.contact-link__text, .engineers__item-links {
+.section__title, .about__main-title, .engineers__item-name {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1050,7 +1105,7 @@ body {
   cursor: default;
 }
 
-.cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
+.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .engineers__item-links {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1103,15 +1158,15 @@ body {
   cursor: default;
 }
 
-.section__title, .about__main-title, .engineers__item-name, .contacts__links a {
+.contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 700;
+  font-weight: 600;
   color: #f2f2f2;
   cursor: default;
 }
 
-.contact-link__text, .engineers__item-links {
+.section__title, .about__main-title, .engineers__item-name {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1119,7 +1174,7 @@ body {
   cursor: default;
 }
 
-.cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
+.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .engineers__item-links {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;

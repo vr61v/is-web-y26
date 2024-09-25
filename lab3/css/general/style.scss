@@ -8,11 +8,16 @@ body {
 
 .section {
   &__title {
-    @extend %font32px;
+    @extend %font24px;
     @extend %fontShadow;
     max-width: 1200px;
     padding: 50px 36px;
     margin: 0 auto;
+
+    @include mobile-l {
+      font-size: 32px !important;
+      font-weight: 600 !important;
+    }
 
     @include tablet {
       font-size: 64px !important;
@@ -46,7 +51,11 @@ body {
   }
 
   &__text {
-    @extend %font24px;
+    @extend %font16px;
     cursor: pointer !important;
+
+    @include mobile-l {
+      font-size: 24px !important;
+    }
   }
 }
