@@ -1,34 +1,64 @@
 @import "../import/colors";
 @import "../import/fonts";
+@import "../import/mixins";
 
 .items__table {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+
+  @include tablet {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
 }
 
 .item {
-  height: 350px;
-  border-radius: 40px;
+  border-radius: 20px;
   background-color: rgba($Black, 0.2);
   backdrop-filter: blur(5px);
   transition: background 0.3s;
 
+  @include screen-laptop {
+    border-radius: 40px;
+  }
+
   &__content {
+    display: flex;
+    aspect-ratio: 1 / 1;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    height: 100%;
+    padding: 10px;
   }
 
   &__price {
-    @extend %font52px;
+    @extend %font16px;
     @extend %fontShadow;
-    padding: 80px 0 45px;
+    padding-bottom: 30px;
+
+    @include mobile-l {
+      font-size: 32px !important;
+    }
+    @include screen-laptop {
+      font-size: 52px !important;
+      padding-bottom: 40px;
+    }
   }
 
   &__description {
-    @extend %font32px;
+    @extend %font12px;
     @extend %fontShadow;
-    padding: 0 10%;
+
+    @include mobile-m {
+      font-size: 16px !important;
+    }
+    @include mobile-l {
+      font-size: 24px !important;
+    }
+    @include screen-laptop {
+      font-size: 32px !important;
+    }
   }
 
   &:hover {
