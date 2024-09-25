@@ -31,7 +31,7 @@
     scrollbar-width: none;
 
     .card {
-      flex: 0 0 33.333%;
+      flex: 0 0 calc((100% / 3) - 10px); // -10px because each element has margin-right 10px
       scroll-snap-align: start;
 
       &__content {

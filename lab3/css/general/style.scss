@@ -20,3 +20,24 @@ body {
     margin: 0 auto;
   }
 }
+
+.contact-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  &__icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__text {
+    @extend %font24px;
+    cursor: pointer !important;
+  }
+}
