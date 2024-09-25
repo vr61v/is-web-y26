@@ -1,5 +1,6 @@
 @import "../import/fonts";
 @import "../import/colors";
+@import "../import/mixins";
 
 body {
   background: $Black;
@@ -7,17 +8,25 @@ body {
 
 .section {
   &__title {
-    @extend %font64px;
+    @extend %font32px;
     @extend %fontShadow;
     max-width: 1200px;
-    padding: 100px 36px;
+    padding: 50px 36px;
     margin: 0 auto;
+
+    @include tablet {
+      font-size: 64px !important;
+      padding: 100px 36px;
+    }
   }
   &__content {
-    position: relative;
     max-width: 1200px;
-    padding: 0 36px 100px;
+    padding: 0 36px 50px;
     margin: 0 auto;
+
+    @include tablet {
+      padding: 0 36px 100px;
+    }
   }
 }
 

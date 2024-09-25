@@ -1,5 +1,6 @@
 @import "../import/colors";
 @import "../import/fonts";
+@import "../import/mixins";
 
 .cards-slider {
   position: relative;
@@ -15,11 +16,19 @@
     background: rgba(0,0,0,0);
 
     &--left {
-      padding-right: 10px;
+      display: none;
+      @include mobile-l {
+        display: block;
+        padding-right: 10px;
+      }
     }
 
     &--right {
-      padding-left: 10px;
+      display: none;
+      @include mobile-l {
+        display: block;
+        padding-left: 10px;
+      }
     }
   }
 
@@ -31,8 +40,14 @@
     scrollbar-width: none;
 
     .card {
-      flex: 0 0 calc((100% / 3) - 10px); // -10px because each element has margin-right 10px
+      flex: 0 0 calc((100% / 1) - 10px); // -10px because each element has margin-right 10px
       scroll-snap-align: start;
+      @include tablet {
+        flex: 0 0 calc((100% / 2) - 10px);
+      }
+      @include screen-laptop {
+        flex: 0 0 calc((100% / 3) - 10px);
+      }
 
       &__content {
         display: flex;
@@ -48,18 +63,24 @@
 
       &__image {
         img {
-          max-width: 290px;
+          max-width: 250px;
           object-fit: cover;
           border-radius: 50px;
+          @include tablet {
+            max-width: 290px;
+          }
         }
       }
 
       &__description {
-        @extend %font24px;
+        @extend %font16px;
         @extend %fontShadow;
         text-align: center;
         padding: 10px;
         max-width: 200px;
+        @include tablet {
+          font-size: 24px !important;
+        }
       }
     }
   }
