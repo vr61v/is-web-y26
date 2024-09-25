@@ -130,15 +130,7 @@ nobr {
   font-style: italic;
   font-display: swap;
 }
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.about__main-title, .section__title {
+.about__title-text, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -154,10 +146,10 @@ nobr {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+.contacts__links a, .engineers__item-name, .about__main-title, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -170,7 +162,7 @@ nobr {
   cursor: default;
 }
 
-.header {
+.about__main-text, .about__title-location, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -194,15 +186,7 @@ nobr {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.about__main-title, .section__title {
+.about__title-text, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -218,10 +202,10 @@ nobr {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+.contacts__links a, .engineers__item-name, .about__main-title, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -234,7 +218,7 @@ nobr {
   cursor: default;
 }
 
-.header {
+.about__main-text, .about__title-location, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -293,15 +277,7 @@ body {
   cursor: pointer !important;
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.about__main-title, .section__title {
+.about__title-text, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -317,10 +293,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+.contacts__links a, .engineers__item-name, .about__main-title, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -333,7 +309,7 @@ body {
   cursor: default;
 }
 
-.header {
+.about__main-text, .about__title-location, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -408,15 +384,7 @@ body {
   max-width: 200px;
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.about__main-title, .section__title {
+.about__title-text, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -432,10 +400,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+.contacts__links a, .engineers__item-name, .about__main-title, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -448,7 +416,7 @@ body {
   cursor: default;
 }
 
-.header {
+.about__main-text, .about__title-location, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -499,15 +467,7 @@ body {
   background-color: rgba(166, 166, 166, 0.1);
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.about__main-title, .section__title {
+.about__title-text, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -523,10 +483,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+.contacts__links a, .engineers__item-name, .about__main-title, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -539,7 +499,7 @@ body {
   cursor: default;
 }
 
-.header {
+.about__main-text, .about__title-location, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -595,15 +555,7 @@ body {
   justify-self: end;
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.about__main-title, .section__title {
+.about__title-text, .section__title {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -619,10 +571,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .about__main-text, .about__title-location, .item__description {
+.contacts__links a, .engineers__item-name, .about__main-title, .item__description {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -635,7 +587,7 @@ body {
   cursor: default;
 }
 
-.header {
+.about__main-text, .about__title-location, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -670,20 +622,48 @@ body {
   justify-content: center;
   height: 100vh;
 }
+.about__title-text {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .about__title-text {
+    font-size: 126px !important;
+  }
+}
+@media (min-width: 992px) {
+  .about__title-location {
+    font-size: 32px !important;
+  }
+}
 .about__main {
   padding-top: 100px;
   display: grid;
+  grid-template-areas: "main-title main-title" "main-text image-vertical" "image-horizontal image-horizontal";
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "main-title image-vertical" "main-text image-vertical" "image-horizontal image-vertical";
-  gap: 10px;
   justify-self: center;
   grid-auto-flow: dense;
+  gap: 10px;
+}
+@media (min-width: 768px) {
+  .about__main {
+    grid-template-areas: "main-title image-vertical" "main-text image-vertical" "image-horizontal image-vertical";
+  }
 }
 .about__main-title {
   grid-area: main-title;
 }
+@media (min-width: 576px) {
+  .about__main-title {
+    font-size: 64px !important;
+  }
+}
 .about__main-text {
   grid-area: main-text;
+}
+@media (min-width: 576px) {
+  .about__main-text {
+    font-size: 32px !important;
+  }
 }
 .about__main-image {
   width: 100%;
@@ -693,23 +673,25 @@ body {
 .about__main-image-vertical {
   grid-area: image-vertical;
   overflow: hidden;
-  border-radius: 40px 80px 80px 40px;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .about__main-image-vertical {
+    border-radius: 40px 80px 80px 40px;
+  }
 }
 .about__main-image-horizontal {
   grid-area: image-horizontal;
   overflow: hidden;
-  border-radius: 80px 40px 40px 80px;
+  border-radius: 20px;
+}
+@media (min-width: 768px) {
+  .about__main-image-horizontal {
+    border-radius: 80px 40px 40px 80px;
+  }
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.section__title, .about__main-title {
+.section__title, .about__title-text {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -725,10 +707,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .item__description, .about__title-location, .about__main-text {
+.contacts__links a, .engineers__item-name, .item__description, .about__main-title {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -741,7 +723,7 @@ body {
   cursor: default;
 }
 
-.header {
+.header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -768,15 +750,7 @@ body {
 .instruments {
   background: url(/source/background/instruments.jpg) no-repeat center/cover;
 }
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.section__title, .about__main-title {
+.section__title, .about__title-text {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -792,10 +766,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .item__description, .about__title-location, .about__main-text {
+.contacts__links a, .engineers__item-name, .item__description, .about__main-title {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -808,7 +782,7 @@ body {
   cursor: default;
 }
 
-.header {
+.header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -868,15 +842,7 @@ body {
   grid-area: sales-button;
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.section__title, .about__main-title {
+.section__title, .about__title-text {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -892,10 +858,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .item__description, .about__title-location, .about__main-text {
+.contacts__links a, .engineers__item-name, .item__description, .about__main-title {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -908,7 +874,7 @@ body {
   cursor: default;
 }
 
-.header {
+.header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -943,15 +909,7 @@ body {
   width: 290px;
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.section__title, .about__main-title {
+.section__title, .about__title-text {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -967,10 +925,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .engineers__item-name, .item__description, .about__title-location, .about__main-text {
+.contacts__links a, .engineers__item-name, .item__description, .about__main-title {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -983,7 +941,7 @@ body {
   cursor: default;
 }
 
-.header {
+.header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1054,15 +1012,7 @@ body {
   padding-left: 10px;
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.section__title, .about__main-title {
+.section__title, .about__title-text {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -1078,10 +1028,10 @@ body {
   cursor: default;
 }
 
-.contacts__links a, .item__description, .about__title-location, .about__main-text, .engineers__item-name {
+.contacts__links a, .item__description, .about__main-title, .engineers__item-name {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -1094,7 +1044,7 @@ body {
   cursor: default;
 }
 
-.header {
+.header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1139,15 +1089,7 @@ body {
   border-radius: 30px;
 }
 
-.about__title-text {
-  font-size: 124px;
-  font-family: Helvetica, serif;
-  font-weight: 700;
-  color: #f2f2f2;
-  cursor: default;
-}
-
-.section__title, .about__main-title {
+.section__title, .about__title-text {
   font-size: 64px;
   font-family: Helvetica, serif;
   font-weight: 600;
@@ -1163,10 +1105,10 @@ body {
   cursor: default;
 }
 
-.item__description, .about__title-location, .about__main-text, .engineers__item-name, .contacts__links a {
+.item__description, .about__main-title, .engineers__item-name, .contacts__links a {
   font-size: 32px;
   font-family: Helvetica, serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #f2f2f2;
   cursor: default;
 }
@@ -1179,7 +1121,7 @@ body {
   cursor: default;
 }
 
-.header {
+.header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;

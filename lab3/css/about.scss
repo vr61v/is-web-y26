@@ -1,5 +1,6 @@
 @import "import/colors";
 @import "import/fonts";
+@import "import/mixin";
 
 .about {
   min-height: 100vh;
@@ -17,38 +18,57 @@
     height: 100vh;
 
     &-text {
-      @extend %font124px;
+      @extend %font64px;
       @extend %fontShadowTitle;
+      text-align: center;
+      @include lg {
+        font-size: 126px !important;
+      }
     }
 
     &-location {
-      @extend %font32px;
+      @extend %font16px;
       @extend %fontShadow;
+      @include lg {
+        font-size: 32px !important;
+      }
     }
   }
 
   &__main {
     padding-top: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-areas:
+      "main-title main-title"
+      "main-text image-vertical"
+      "image-horizontal image-horizontal";
+    @include md {
+      grid-template-areas:
       "main-title image-vertical"
       "main-text image-vertical"
       "image-horizontal image-vertical";
-    gap: 10px;
+    }
+    grid-template-columns: 1fr 1fr;
     justify-self: center;
     grid-auto-flow: dense;
+    gap: 10px;
 
     &-title {
-      @extend %font64px;
+      @extend %font32px;
       @extend %fontShadow;
       grid-area: main-title;
+      @include sm {
+        font-size: 64px !important;
+      }
     }
 
     &-text {
-      @extend %font32px;
+      @extend %font16px;
       @extend %fontShadow;
       grid-area: main-text;
+      @include sm {
+        font-size: 32px !important;
+      }
     }
 
     &-image {
@@ -60,13 +80,19 @@
     &-image-vertical{
       grid-area: image-vertical;
       overflow: hidden;
-      border-radius: 40px 80px 80px 40px; // Для вертикального
+      border-radius: 20px;
+      @include md {
+        border-radius: 40px 80px 80px 40px;
+      }
     }
 
     &-image-horizontal {
       grid-area: image-horizontal;
       overflow: hidden;
-      border-radius: 80px 40px 40px 80px; // Для горизонтального
+      border-radius: 20px;
+      @include md {
+        border-radius: 80px 40px 40px 80px;
+      }
     }
   }
 }
