@@ -1,5 +1,6 @@
 @import "import/colors";
 @import "import/fonts";
+@import "import/mixins";
 
 .header {
   @extend %font16px;
@@ -24,12 +25,50 @@
   }
 
   &__links {
-    display: flex;
-    justify-content: flex-start;
+    display: none;
+    @include tablet {
+      display: flex;
+      justify-content: flex-start;
+    }
   }
 
   &__link {
     padding-right: 10px;
+  }
+
+  &__burger {
+    display: flex;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-self: start;
+
+    @include tablet {
+      display: none;
+    }
+
+    &__line {
+      width: 30px;
+      height: 3px;
+      background-color: $White;
+      transition: transform 0.3s, opacity 0.3s, width 0.3s;
+    }
+
+    &--active {
+      & .header__burger__line:nth-child(1) {
+        transform: translateY(3px) rotate(45deg);
+      }
+
+      & .header__burger__line:nth-child(2) {
+        width: 0;
+      }
+
+      & .header__burger__line:nth-child(3) {
+        transform: translateY(-3px) rotate(-45deg);
+      }
+    }
   }
 
   &__logo {
