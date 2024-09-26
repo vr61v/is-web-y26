@@ -26,6 +26,7 @@
 
   &__links {
     display: none;
+
     @include tablet {
       display: flex;
       justify-content: flex-start;

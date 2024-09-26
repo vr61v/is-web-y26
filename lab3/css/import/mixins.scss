@@ -36,12 +36,6 @@
   }
 }
 
-@mixin screen-laptop-4k {
-  @media (min-width: #{$screen-laptop-4k}) {
-    @content;
-  }
-}
-
 @mixin rwd($screen) {
   @media (min-width: $screen+'px') {
     @content;

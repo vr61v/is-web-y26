@@ -17,6 +17,7 @@
 
     &--left {
       display: none;
+
       @include mobile-l {
         display: block;
         padding-right: 10px;
@@ -25,6 +26,7 @@
 
     &--right {
       display: none;
+
       @include mobile-l {
         display: block;
         padding-left: 10px;
@@ -46,6 +48,7 @@
       @include tablet {
         flex: 0 0 calc((100% / 2) - 10px);
       }
+
       @include screen-laptop {
         flex: 0 0 calc((100% / 3) - 10px);
       }
@@ -64,9 +67,13 @@
 
       &__image {
         img {
-          max-width: 250px;
+          max-width: 200px;
           object-fit: cover;
           border-radius: 50px;
+
+          @include mobile-l {
+            max-width: 250px;
+          }
 
           @include tablet {
             max-width: 290px;

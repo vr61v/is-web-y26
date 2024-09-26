@@ -1,5 +1,6 @@
 @import "import/colors";
 @import "import/fonts";
+@import "import/mixins";
 
 .credits {
   background: url(/source/background/credits.jpg) no-repeat center / cover;
@@ -11,6 +12,7 @@
 
 .card__image-credits {
   padding: 25px 0 25px;
+
   img {
     border-radius: 30%;
     width: 290px;
