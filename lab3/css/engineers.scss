@@ -5,8 +5,6 @@
 .engineers {
   background: url('/source/background/engineers.jpg') no-repeat center / cover;
 
-  &__title { }
-
   &__content {
     @extend .section__content;
 
