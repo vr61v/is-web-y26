@@ -1,21 +1,32 @@
 @import "import/colors";
 @import "import/fonts";
+@import "import/mixins";
 
 .footer {
   background: $White;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include tablet {
+    height: 50px;
+  }
+
   &__content {
     @extend .section__content;
     @extend %font12px;
-    color: $Black;
-    height: 50px;
-    display: grid;
     padding-bottom: 0;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-items: center;
   }
 
-  &__link { }
+  &__logo {
+    img {
+      height: 20px;
+      object-fit: cover;
 
-  &__logo { }
+      @include tablet {
+        height: 30px;
+      }
+    }
+  }
 }
