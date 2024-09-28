@@ -318,6 +318,7 @@ body {
   justify-content: center;
   border: none;
   background: rgba(0, 0, 0, 0);
+  transition: opacity 0.3s;
 }
 .cards-slider .cards-slider__control--left {
   display: none;
