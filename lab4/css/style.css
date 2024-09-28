@@ -553,6 +553,7 @@ body {
   z-index: 10;
   background-color: rgba(38, 38, 38, 0.1);
   backdrop-filter: blur(10px);
+  transition: top 0.3s;
 }
 .header__content {
   padding-bottom: 0;

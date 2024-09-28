@@ -13,6 +13,8 @@
   background-color: rgba($GrayDark, 0.1);
   backdrop-filter: blur(10px);
 
+  transition: top 0.3s;
+
   &__content {
     @extend .section__content;
     padding-bottom: 0;
