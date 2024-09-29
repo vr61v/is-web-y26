@@ -18,15 +18,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const updateControlsOpacity = () => {
             if (slider.scrollLeft <= 0) {
-                buttonLeft.style.opacity = 0.25;
+                buttonLeft.style.opacity = "0.25";
             } else {
-                buttonLeft.style.opacity = 1;
+                buttonLeft.style.opacity = "1";
             }
 
             if (slider.scrollLeft + slider.clientWidth >= slider.scrollWidth) {
-                buttonRight.style.opacity = 0.25;
+                buttonRight.style.opacity = "0.25";
             } else {
-                buttonRight.style.opacity = 1;
+                buttonRight.style.opacity = "1";
             }
         };
 

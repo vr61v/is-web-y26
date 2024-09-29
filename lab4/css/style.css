@@ -138,7 +138,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-name, .about__main-title, .section__title {
+.engineers__item-name, .rules__title, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -146,7 +146,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -166,7 +166,7 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -178,7 +178,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-name, .about__main-title, .section__title {
+.engineers__item-name, .rules__title, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -186,7 +186,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -206,12 +206,16 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
 body {
   background: #0d0d0d;
+}
+
+.body__modal-open {
+  overflow: hidden;
 }
 
 .section__title {
@@ -274,7 +278,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .about__main-title, .section__title {
+.engineers__item-name, .rules__title, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -282,7 +286,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -302,7 +306,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -403,7 +407,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .about__main-title, .section__title {
+.engineers__item-name, .rules__title, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -411,7 +415,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .contact-link__text, .cards-slider .cards-list .card__description {
+.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .contact-link__text, .cards-slider .cards-list .card__description {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -431,7 +435,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .section__title, .cards-slider .cards-list .card__description {
+.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .section__title, .cards-slider .cards-list .card__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -514,7 +518,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .about__main-title, .section__title {
+.engineers__item-name, .rules__title, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -522,7 +526,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
+.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -542,7 +546,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
+.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -621,7 +625,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .about__main-title, .section__title {
+.engineers__item-name, .rules__title, .about__main-title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -629,7 +633,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header {
+.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -649,7 +653,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
+.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -752,7 +756,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .section__title, .about__main-title {
+.engineers__item-name, .rules__title, .section__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -760,7 +764,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
+.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -780,7 +784,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -795,7 +799,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .section__title, .about__main-title {
+.engineers__item-name, .rules__title, .section__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -803,7 +807,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
+.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -823,7 +827,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -886,7 +890,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .section__title, .about__main-title {
+.engineers__item-name, .rules__title, .section__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -894,7 +898,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-links, .rules li, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -914,7 +918,134 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-description, .rules li, .rules__title, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.rules {
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px);
+  transition: transform 0.3s, opacity 0.3s;
+}
+.rules__open {
+  visibility: visible;
+  transform: translateY(0);
+  opacity: 1;
+}
+.rules__content {
+  border-radius: 30px;
+  max-width: 75%;
+  margin: 65px auto;
+  padding: 25px;
+  background-color: rgba(13, 13, 13, 0.2);
+}
+@media (min-width: 425px) {
+  .rules__content {
+    padding: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .rules__content {
+    padding: 100px;
+  }
+}
+.rules__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+}
+@media (min-width: 425px) {
+  .rules__head {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 425px) {
+  .rules__title {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+  }
+}
+@media (min-width: 1024px) {
+  .rules__title {
+    font-size: 52px !important;
+  }
+}
+.rules li {
+  padding-bottom: 25px;
+}
+@media (min-width: 425px) {
+  .rules li {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .rules li {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+  }
+}
+.rules li:last-child {
+  padding-bottom: 0;
+}
+.rules__close {
+  color: #f2f2f2;
+  font-size: 32px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.rules__close:hover, .rules__close:focus {
+  color: #262626;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.about__title-text {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-name, .section__title, .about__main-title, .rules__title {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content, .item__description {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules__title, .rules li {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -937,7 +1068,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .section__title, .about__main-title {
+.engineers__item-name, .section__title, .about__main-title, .rules__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -945,7 +1076,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -965,7 +1096,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules__title, .rules li {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -1055,7 +1186,7 @@ body {
   cursor: default;
 }
 
-.section__title, .about__main-title, .engineers__item-name {
+.section__title, .about__main-title, .rules__title, .engineers__item-name {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1063,7 +1194,7 @@ body {
   cursor: default;
 }
 
-.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .engineers__item-links {
+.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .engineers__item-links {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1083,7 +1214,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .engineers__item-description {
+.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules__title, .rules li, .engineers__item-description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -1126,7 +1257,7 @@ body {
   cursor: default;
 }
 
-.section__title, .about__main-title, .engineers__item-name {
+.section__title, .about__main-title, .rules__title, .engineers__item-name {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1134,7 +1265,7 @@ body {
   cursor: default;
 }
 
-.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .engineers__item-links {
+.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .engineers__item-links {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1154,7 +1285,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .engineers__item-description {
+.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules__title, .rules li, .engineers__item-description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 

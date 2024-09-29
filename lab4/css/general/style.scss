@@ -6,6 +6,10 @@ body {
   background: $Black;
 }
 
+.body__modal-open{
+  overflow: hidden;
+}
+
 .section {
   &__title {
     @extend %font24px;
