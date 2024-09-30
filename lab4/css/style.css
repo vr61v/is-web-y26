@@ -138,7 +138,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .about__main-title, .section__title {
+.engineers__item-name, .about__main-title, .modal-window__title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -146,7 +146,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -154,7 +154,7 @@ nobr {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -166,7 +166,7 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .modal-window__title, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -178,7 +178,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .about__main-title, .section__title {
+.engineers__item-name, .about__main-title, .modal-window__title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -186,7 +186,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -194,7 +194,7 @@ nobr {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -206,7 +206,7 @@ nobr {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .modal-window__title, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -278,7 +278,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .about__main-title, .section__title {
+.engineers__item-name, .about__main-title, .modal-window__title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -286,7 +286,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -294,7 +294,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -306,7 +306,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .modal-window__title, .item__description, .item__price, .cards-slider .cards-list .card__description, .section__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -407,7 +407,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .about__main-title, .section__title {
+.engineers__item-name, .about__main-title, .modal-window__title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -415,7 +415,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .contact-link__text, .cards-slider .cards-list .card__description {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .contact-link__text, .cards-slider .cards-list .card__description {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -423,7 +423,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -435,7 +435,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .item__description, .item__price, .section__title, .cards-slider .cards-list .card__description {
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .modal-window__title, .item__description, .item__price, .section__title, .cards-slider .cards-list .card__description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -518,7 +518,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .about__main-title, .section__title {
+.engineers__item-name, .about__main-title, .modal-window__title, .section__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -526,7 +526,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -534,7 +534,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -546,7 +546,119 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .modal-window__title, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.modal-window {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-10px);
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px);
+  transition: transform 0.3s, opacity 0.3s;
+}
+.modal-window__open {
+  display: block;
+  visibility: visible;
+  transform: translateY(0);
+  opacity: 1;
+}
+.modal-window__content {
+  border-radius: 30px;
+  max-width: 75%;
+  margin: 65px auto;
+  padding: 25px;
+  background-color: rgba(13, 13, 13, 0.2);
+}
+@media (min-width: 425px) {
+  .modal-window__content {
+    padding: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .modal-window__content {
+    padding: 100px;
+  }
+}
+.modal-window__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+}
+@media (min-width: 425px) {
+  .modal-window__head {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 425px) {
+  .modal-window__title {
+    font-size: 32px !important;
+    font-weight: 600 !important;
+  }
+}
+@media (min-width: 1024px) {
+  .modal-window__title {
+    font-size: 52px !important;
+  }
+}
+.modal-window__close {
+  color: #f2f2f2;
+  font-size: 32px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.modal-window__close:hover, .modal-window__close:focus {
+  color: #A6A6A6;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.about__title-text {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-name, .about__main-title, .section__title, .modal-window__title {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content, .calculator__result-item, .item__description {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -625,7 +737,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .about__main-title, .section__title {
+.engineers__item-name, .about__main-title, .section__title, .modal-window__title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -633,7 +745,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -641,7 +753,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -653,7 +765,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description {
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__main-title, .about__title-location, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -756,7 +868,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .section__title, .about__main-title {
+.engineers__item-name, .section__title, .modal-window__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -764,7 +876,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -772,7 +884,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -784,7 +896,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title, .about__title-location, .about__main-title, .about__main-text {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -799,7 +911,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .section__title, .about__main-title {
+.engineers__item-name, .section__title, .modal-window__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -807,7 +919,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -815,7 +927,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -827,7 +939,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text {
+.engineers__item-description, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title, .about__title-location, .about__main-title, .about__main-text {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -890,7 +1002,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .rules__title, .section__title, .about__main-title {
+.engineers__item-name, .section__title, .modal-window__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -898,7 +1010,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .rules li, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -906,7 +1018,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -918,68 +1030,10 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .rules li, .rules__title, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-description, .calculator ul, .rules li, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
-.rules {
-  visibility: hidden;
-  opacity: 0;
-  transform: translateY(-10px);
-  overflow: scroll;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(15px);
-  transition: transform 0.3s, opacity 0.3s;
-}
-.rules__open {
-  visibility: visible;
-  transform: translateY(0);
-  opacity: 1;
-}
-.rules__content {
-  border-radius: 30px;
-  max-width: 75%;
-  margin: 65px auto;
-  padding: 25px;
-  background-color: rgba(13, 13, 13, 0.2);
-}
-@media (min-width: 425px) {
-  .rules__content {
-    padding: 50px;
-  }
-}
-@media (min-width: 768px) {
-  .rules__content {
-    padding: 100px;
-  }
-}
-.rules__head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 25px;
-}
-@media (min-width: 425px) {
-  .rules__head {
-    padding-bottom: 50px;
-  }
-}
-@media (min-width: 425px) {
-  .rules__title {
-    font-size: 32px !important;
-    font-weight: 600 !important;
-  }
-}
-@media (min-width: 1024px) {
-  .rules__title {
-    font-size: 52px !important;
-  }
-}
 .rules li {
   padding-bottom: 25px;
 }
@@ -997,17 +1051,6 @@ body {
 .rules li:last-child {
   padding-bottom: 0;
 }
-.rules__close {
-  color: #f2f2f2;
-  font-size: 32px;
-  font-weight: bold;
-  transition: all 0.3s;
-}
-.rules__close:hover, .rules__close:focus {
-  color: #262626;
-  cursor: pointer;
-  transition: color 0.3s;
-}
 
 .about__title-text {
   font-size: 64px;
@@ -1017,7 +1060,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .section__title, .about__main-title, .rules__title {
+.engineers__item-name, .section__title, .modal-window__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1025,7 +1068,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1033,7 +1076,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .calculator__result-item, .item__description {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1045,7 +1088,254 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules__title, .rules li {
+.engineers__item-description, .calculator ul, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.calculator__form {
+  display: grid;
+  grid-template-areas: "form" "result";
+}
+@media (min-width: 768px) {
+  .calculator__form {
+    grid-template-areas: "form result";
+  }
+}
+.calculator ul {
+  grid-area: form;
+}
+@media (min-width: 1024px) {
+  .calculator ul {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .calculator ul {
+    font-size: 24px !important;
+  }
+}
+.calculator__hours {
+  width: 40px;
+  height: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #0d0d0d;
+  background-color: #f2f2f2;
+}
+@media (min-width: 1024px) {
+  .calculator__hours {
+    width: 80px;
+    height: 20px;
+  }
+}
+.calculator__radio {
+  display: none;
+}
+.calculator__radio + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.calculator__radio + label::before {
+  content: "";
+  margin-right: 5px;
+  min-width: 10px;
+  min-height: 10px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  transition: border-color 0.3s;
+}
+@media (min-width: 425px) {
+  .calculator__radio + label::before {
+    min-width: 15px;
+    min-height: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  .calculator__radio + label::before {
+    min-width: 25px;
+    min-height: 25px;
+  }
+}
+.calculator__radio:checked + label::before {
+  border-color: #f2f2f2;
+  background-image: url("/source/icon/ok-radio.png");
+  background-repeat: no-repeat;
+  background-size: 7px;
+  background-position: center;
+}
+@media (min-width: 425px) {
+  .calculator__radio:checked + label::before {
+    background-size: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .calculator__radio:checked + label::before {
+    background-size: 17px;
+  }
+}
+.calculator__radio:hover + label:hover::before {
+  border-color: #A6A6A6;
+  transition: border-color 0.3s;
+}
+.calculator__checkbox {
+  display: none;
+}
+.calculator__checkbox + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.calculator__checkbox + label::before {
+  content: "";
+  margin-right: 5px;
+  min-width: 13px;
+  min-height: 13px;
+  border: 2px solid #f2f2f2;
+  border-radius: 30%;
+  transition: border-color 0.3s;
+}
+@media (min-width: 425px) {
+  .calculator__checkbox + label::before {
+    min-width: 18px;
+    min-height: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .calculator__checkbox + label::before {
+    min-width: 25px;
+    min-height: 25px;
+  }
+}
+.calculator__checkbox:checked + label::before {
+  border-color: #f2f2f2;
+  background-image: url("/source/icon/ok.png");
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center;
+}
+@media (min-width: 425px) {
+  .calculator__checkbox:checked + label::before {
+    background-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  .calculator__checkbox:checked + label::before {
+    background-size: 20px;
+  }
+}
+.calculator__checkbox:hover + label:hover::before {
+  border-color: #A6A6A6;
+  transition: border-color 0.3s;
+}
+.calculator li {
+  margin-bottom: 20px;
+}
+@media (min-width: 425px) {
+  .calculator li:last-child {
+    padding-bottom: 0;
+  }
+}
+.calculator__result {
+  grid-area: result;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+}
+@media (min-width: 425px) {
+  .calculator__result {
+    border-radius: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .calculator__result {
+    padding: 40px;
+  }
+}
+.calculator__result-item {
+  color: #262626 !important;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.calculator__result-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #A6A6A6, transparent);
+}
+@media (min-width: 425px) {
+  .calculator__result-item {
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .calculator__result-item {
+    font-size: 18px !important;
+  }
+}
+.calculator__result-item:last-child {
+  margin-bottom: 0;
+}
+.calculator__result-item-work {
+  padding-right: 10px;
+}
+.calculator__result-sum {
+  color: #262626 !important;
+  padding-top: 20px;
+}
+@media (min-width: 1024px) {
+  .calculator__result-sum {
+    font-size: 24px !important;
+  }
+}
+
+.about__title-text {
+  font-size: 64px;
+  font-family: Helvetica, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-name, .section__title, .modal-window__title, .about__main-title {
+  font-size: 24px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum {
+  font-size: 16px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.footer__content, .item__description, .calculator__result-item {
+  font-size: 12px;
+  font-family: Helvetica, serif;
+  font-weight: 500;
+  color: #f2f2f2;
+  cursor: default;
+}
+
+.about__title-text {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+}
+
+.engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -1068,7 +1358,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-name, .section__title, .about__main-title, .rules__title {
+.engineers__item-name, .section__title, .modal-window__title, .about__main-title {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1076,7 +1366,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li {
+.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1084,7 +1374,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .item__description, .calculator__result-item {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1096,7 +1386,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules__title, .rules li {
+.engineers__item-description, .section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -1186,7 +1476,7 @@ body {
   cursor: default;
 }
 
-.section__title, .about__main-title, .rules__title, .engineers__item-name {
+.section__title, .modal-window__title, .about__main-title, .engineers__item-name {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1194,7 +1484,7 @@ body {
   cursor: default;
 }
 
-.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .engineers__item-links {
+.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum, .engineers__item-links {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1202,7 +1492,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .item__description, .calculator__result-item {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1214,7 +1504,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules__title, .rules li, .engineers__item-description {
+.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .engineers__item-description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
@@ -1257,7 +1547,7 @@ body {
   cursor: default;
 }
 
-.section__title, .about__main-title, .rules__title, .engineers__item-name {
+.section__title, .modal-window__title, .about__main-title, .engineers__item-name {
   font-size: 24px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1265,7 +1555,7 @@ body {
   cursor: default;
 }
 
-.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .engineers__item-links {
+.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum, .engineers__item-links {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1273,7 +1563,7 @@ body {
   cursor: default;
 }
 
-.footer__content, .item__description {
+.footer__content, .item__description, .calculator__result-item {
   font-size: 12px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1285,7 +1575,7 @@ body {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
 }
 
-.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules__title, .rules li, .engineers__item-description {
+.section__title, .cards-slider .cards-list .card__description, .item__price, .item__description, .modal-window__title, .about__title-location, .about__main-title, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .engineers__item-description {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 

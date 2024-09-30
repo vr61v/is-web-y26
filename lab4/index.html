@@ -12,7 +12,7 @@
 
   <title>LOCAL STAR stu.</title>
 </head>
-<body>
+<body id="body">
 
   <header class="header" id="header">
     <div class="header__content">
@@ -193,17 +193,71 @@
         </div>
 
         <div class="prices__buttons">
-          <button class="prices__calculate-button">Рассчитать стоимость</button>
+          <button class="prices__calculate-button" id="calculatorOpenButton">Рассчитать стоимость</button>
           <button class="prices__rules-button" id="rulesOpenButton">Правила</button>
           <a class="prices__sales-button" href="https://vk.com/localstarstu" target="_blank">Акции</a>
         </div>
       </div>
 
-      <div class="rules" id="rules">
-        <div class="rules__content">
-          <div class="rules__head">
-           <div class="rules__title">Rules</div>
-           <span class="rules__close close" id="rulesCloseButton">&times;</span>
+      <div class="calculator modal-window" id="calculator">
+        <div class="modal-window__content">
+          <div class="modal-window__head">
+            <div class="modal-window__title">Рассчитать стоимость</div>
+            <span class="modal-window__close" id="calculatorCloseButton">&times;</span>
+          </div>
+          <form class="calculator__form" action="">
+            <ul>
+              <li>
+                <label for="hours">Часы работы студии:</label>
+                <input class="calculator__hours" type="number" min="0" step="1" id="hours" />
+              </li>
+              <li>
+                <input class="calculator__radio" type="radio" id="no-pro" name="rent" value="no-pro" onclick="foo(this)" />
+                <label for="no-pro">Аренда студии</label>
+              </li>
+              <li>
+                <input class="calculator__radio" type="radio" id="pro" name="rent" value="pro" onclick="foo(this)" />
+                <label for="pro">Аренда студии с Профи</label>
+              </li>
+              <li>
+                <input class="calculator__checkbox" type="checkbox" id="mixing" name="mixing" value="mixing" />
+                <label for="mixing">Сведение</label>
+              </li>
+              <li>
+                <input class="calculator__checkbox" type="checkbox" id="design" name="design" value="design" />
+                <label for="design">Графический дизайн</label>
+              </li>
+              <li>
+                <input class="calculator__checkbox" type="checkbox" id="mastering" name="mastering" value="mastering" />
+                <label for="mastering">Технический монтаж / мастеринг</label>
+              </li>
+              <li>
+                <input class="calculator__checkbox" type="checkbox" id="ghostwriter" name="ghostwriter" value="ghostwriter" />
+                <label for="ghostwriter">Гострайт / Написание текста</label>
+              </li>
+              <li>
+                <input class="calculator__checkbox" type="checkbox" id="instrumental" name="instrumental" value="instrumental" />
+                <label for="instrumental">Инструментал / Создание аранжировок</label>
+              </li>
+              <li>
+                <input class="calculator__checkbox" type="checkbox" id="song-for-key" name="song-for-key" value="song-for-key" />
+                <label for="song-for-key">Песня под ключ</label>
+              </li>
+            </ul>
+
+            <div class="calculator__result">
+              <div class="calculator__result-content" id="result"></div>
+              <div class="calculator__result-sum" id="sum">Итого: 0 руб.</div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="rules modal-window" id="rules">
+        <div class="modal-window__content">
+          <div class="modal-window__head">
+           <div class="modal-window__title">Rules</div>
+           <span class="modal-window__close close" id="rulesCloseButton">&times;</span>
           </div>
           <ul class="rules__list">
             <li>1. Запись по номеру телефона 8-931-314-81-51 или в сообщениях группы. Запись считается действительной при внесении предоплаты в размере 50% от забронированного кол-ва часов работы на студии (не менее чем за 24 часа).</li>
@@ -413,6 +467,7 @@
 
   <script src="/js/hideHeader.js"></script>
   <script src="js/slider.js"></script>
-  <script src="js/rules.js"></script>
+  <script src="js/modalWindow.js"></script>
+  <script src="js/calculator.js"></script>
 </body>
 </html>
