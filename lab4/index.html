@@ -17,18 +17,15 @@
   <header class="header" id="header">
     <div class="header__content">
       <nav class="header__navigation">
-        <ul class="header__links">
-          <li>
-            <a class="header__link" href="#about">LOCAL</a>
-          </li>
-          <li>
-            <a class="header__link" href="#prices">ЦЕНЫ</a>
-          </li>
-          <li>
-            <a class="header__link" href="#contacts">КОНТАКТЫ</a>
-          </li>
-        </ul>
-        <div class="header__burger" id="burger">
+        <div class="header__links" id="headerLinks">
+          <a class="header__link header__link--active" href="#about">LOCAL</a>
+          <a class="header__link" href="#instruments">ОБОРУДОВАНИЕ</a>
+          <a class="header__link" href="#prices">ЦЕНЫ</a>
+          <a class="header__link" href="#credits">CREDITS</a>
+          <a class="header__link" href="#engineers">ЗВУКОРЕЖИССЁРЫ</a>
+          <a class="header__link" href="#contacts">КОНТАКТЫ</a>
+        </div>
+        <div class="header__burger" id="burger" onclick="burger()">
           <div class="header__burger__line"></div>
           <div class="header__burger__line"></div>
           <div class="header__burger__line"></div>
@@ -465,9 +462,9 @@
     </div>
   </footer>
 
-  <script src="/js/hideHeader.js"></script>
   <script src="js/slider.js"></script>
-  <script src="js/modalWindow.js"></script>
+  <script src="js/modal.js"></script>
   <script src="js/calculator.js"></script>
+  <script src="js/header.js"></script>
 </body>
 </html>
