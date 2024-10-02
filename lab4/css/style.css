@@ -310,7 +310,7 @@ body {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
-.cards-slider {
+.cards-slider__content {
   position: relative;
   display: flex;
   align-items: center;
@@ -397,6 +397,25 @@ body {
   .cards-slider .cards-list .card__description {
     font-size: 24px !important;
   }
+}
+
+.points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+.points__item {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #A6A6A6;
+  opacity: 0.5;
+}
+.points__item--active {
+  background-color: #f2f2f2;
+  opacity: 1;
 }
 
 .about__title-text {

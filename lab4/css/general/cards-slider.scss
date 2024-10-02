@@ -3,9 +3,12 @@
 @import "../import/mixins";
 
 .cards-slider {
-  position: relative;
-  display: flex;
-  align-items: center;
+
+  &__content {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
 
   .cards-slider__control {
     cursor: pointer;
@@ -98,3 +101,23 @@
   }
 }
 
+.points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+
+  &__item {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: $GrayLight;
+    opacity: 0.5;
+
+    &--active {
+      background-color: $White;
+      opacity: 1;
+    }
+  }
+}
