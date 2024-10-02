@@ -10,7 +10,14 @@ document.addEventListener("DOMContentLoaded", () => {
         setupControls(cardsList, buttonLeft, buttonRight, cardWidth);
         const pointsContainer = initializePoints(sliderContainer, cardsList);
 
-        addEventListeners(cardsList, buttonLeft, buttonRight, pointsContainer);
+        cardsList.addEventListener("scroll", () => {
+            updateControlsOpacity(cardsList, buttonLeft, buttonRight);
+            updateActivePoints(cardsList, pointsContainer.childElementCount, pointsContainer);
+        });
+
+        window.addEventListener("resize", () => {
+            updatePointsOnResize(pointsContainer, cardsList);
+        });
     });
 });
 
@@ -96,15 +103,4 @@ function updatePointsOnResize(pointsContainer, cardsList) {
     pointsContainer.innerHTML = '';
     addPointsToSlider(pointsSize, pointsContainer);
     setActivePoint(0, pointsContainer);
-}
-
-function addEventListeners(cardsList, buttonLeft, buttonRight, pointsContainer) {
-    cardsList.addEventListener("scroll", () => {
-        updateControlsOpacity(cardsList, buttonLeft, buttonRight);
-        updateActivePoints(cardsList, pointsContainer.childElementCount, pointsContainer);
-    });
-
-    window.addEventListener("resize", () => {
-        updatePointsOnResize(pointsContainer, cardsList);
-    });
 }

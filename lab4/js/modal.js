@@ -1,21 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const body = document.getElementsByTagName("body")[0];
-
-    function initModal(modalId, openButtonId, closeButtonId) {
-        const modal = document.getElementById(modalId);
-        const openButton = document.getElementById(openButtonId);
-        const closeButton = document.getElementById(closeButtonId);
-
-        openButton.onclick = () => {
-            modal.classList.add('modal-window__open');
-            body.classList.add('body__modal-open');
-        };
-
-        closeButton.onclick = () => {
-            modal.classList.remove('modal-window__open');
-            body.classList.remove('body__modal-open');
-        };
-    }
+    const body = document.querySelector("body");
 
     window.onclick = (event) => {
         const openModals = document.querySelectorAll('.modal-window__open');
@@ -27,6 +11,22 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     };
 
-    initModal("rules", "rulesOpenButton", "rulesCloseButton");
-    initModal("calculator", "calculatorOpenButton", "calculatorCloseButton");
+    initModal(body, "rules", "rulesOpenButton", "rulesCloseButton");
+    initModal(body, "calculator", "calculatorOpenButton", "calculatorCloseButton");
 });
+
+function initModal(body, modalId, openButtonId, closeButtonId) {
+    const modal = document.querySelector(`#${modalId}`);
+    const openButton = document.querySelector(`#${openButtonId}`);
+    const closeButton = document.querySelector(`#${closeButtonId}`);
+
+    openButton.onclick = () => {
+        modal.classList.add('modal-window__open');
+        body.classList.add('body__modal-open');
+    };
+
+    closeButton.onclick = () => {
+        modal.classList.remove('modal-window__open');
+        body.classList.remove('body__modal-open');
+    };
+}
