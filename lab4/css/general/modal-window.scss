@@ -3,7 +3,6 @@
 @import "../import/mixins";
 
 .modal-window {
-  display: none;
   visibility: hidden;
   opacity: 0;
   transform: translateY(-10px);
@@ -18,7 +17,6 @@
   transition: transform 0.3s, opacity 0.3s;
 
   &__open {
-    display: block;
     visibility: visible;
     transform: translateY(0);
     opacity: 1;
