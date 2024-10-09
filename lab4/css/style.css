@@ -146,7 +146,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -186,7 +186,7 @@ nobr {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -286,7 +286,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, header, .item__price, .cards-slider .cards-list .card__description, .contact-link__text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -436,7 +436,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .item__price, .contact-link__text, .cards-slider .cards-list .card__description {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, header, .item__price, .contact-link__text, .cards-slider .cards-list .card__description {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -547,7 +547,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -657,7 +657,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, header, .contact-link__text, .cards-slider .cards-list .card__description, .item__price {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -681,16 +681,17 @@ body {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
 }
 
-.header {
+header {
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
   z-index: 10;
-  transition: top 0.3s ease;
 }
+
 .header__content {
   padding-bottom: 0;
+  border-radius: 0 0 10px 10px;
   background-color: rgba(38, 38, 38, 0.1);
   backdrop-filter: blur(10px);
 }
@@ -824,7 +825,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .about__main-text, .about__title-location, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, header {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -955,7 +956,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -998,7 +999,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .prices__buttons button, .prices__buttons a, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, header, .about__title-location, .about__main-text {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1089,7 +1090,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .rules li, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1147,7 +1148,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .calculator__result-sum, .calculator ul, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li {
+.engineers__item-links, .calculator__result-sum, .calculator ul, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1394,7 +1395,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum {
+.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1445,7 +1446,7 @@ body {
   cursor: default;
 }
 
-.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum {
+.engineers__item-links, .contact-link__text, .cards-slider .cards-list .card__description, .item__price, header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1563,7 +1564,7 @@ body {
   cursor: default;
 }
 
-.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum, .engineers__item-links {
+.contact-link__text, .cards-slider .cards-list .card__description, .item__price, header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum, .engineers__item-links {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;
@@ -1634,7 +1635,7 @@ body {
   cursor: default;
 }
 
-.contact-link__text, .cards-slider .cards-list .card__description, .item__price, .header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum, .engineers__item-links {
+.contact-link__text, .cards-slider .cards-list .card__description, .item__price, header, .about__title-location, .about__main-text, .prices__buttons button, .prices__buttons a, .rules li, .calculator ul, .calculator__result-sum, .engineers__item-links {
   font-size: 16px;
   font-family: Helvetica, serif;
   font-weight: 500;

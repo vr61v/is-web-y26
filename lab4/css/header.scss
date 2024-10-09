@@ -2,18 +2,20 @@
 @import "import/fonts";
 @import "import/mixins";
 
-.header {
+header {
   @extend %font16px;
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
   z-index: 10;
-  transition: top 0.3s ease;
+}
 
+.header {
   &__content {
     @extend .section__content;
     padding-bottom: 0;
+    border-radius: 0 0 10px 10px;
     background-color: rgba($GrayDark, 0.1);
     backdrop-filter: blur(10px);
   }
