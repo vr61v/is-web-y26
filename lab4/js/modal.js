@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
     initModal(body, "calculator", "calculatorOpenButton", "calculatorCloseButton");
 });
 
-function initModal(body, modalId, openButtonId, closeButtonId) {
-    const modal = document.querySelector(`#${modalId}`);
+function initModal(body, modalClass, openButtonId, closeButtonId) {
+    const modal = document.querySelector(`.${modalClass}`);
     const openButton = document.querySelector(`#${openButtonId}`);
     const closeButton = document.querySelector(`#${closeButtonId}`);
 
